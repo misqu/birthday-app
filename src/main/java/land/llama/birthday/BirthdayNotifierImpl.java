@@ -7,6 +7,9 @@ import land.llama.birthday.service.selector.CitizenSelector;
 
 import java.util.List;
 
+/**
+ * Parses, filters and selects citizens, which should receive email from King Tom I
+ */
 public class BirthdayNotifierImpl implements BirthdayNotifier {
 
     private final CitizenParser citizenParser;

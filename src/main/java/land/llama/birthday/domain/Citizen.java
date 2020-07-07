@@ -2,6 +2,9 @@ package land.llama.birthday.domain;
 
 import java.time.LocalDate;
 
+/**
+ * Domain object representing a citizen
+ */
 public class Citizen {
 
     private final String firstName;

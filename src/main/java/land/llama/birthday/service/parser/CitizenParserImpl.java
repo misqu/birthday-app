@@ -7,6 +7,12 @@ import java.util.List;
 
 import static java.util.stream.Collectors.toList;
 
+/**
+ * Parses input using following format:
+ * LastName,FirstName,dd-MM-yyyy,test@email.com
+ * - birthday date is mandatory na has to be provided in correct format
+ * - email address has to be provided
+ */
 public class CitizenParserImpl implements CitizenParser {
 
     @Override

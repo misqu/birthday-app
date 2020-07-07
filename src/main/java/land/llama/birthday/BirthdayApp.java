@@ -19,6 +19,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * Parses program's parameters, assembles application with default
+ * configuration values and prints result on standard output.
+ */
 public class BirthdayApp {
 
     static final int WORK_DAYS_BEFORE_BIRTHDAY = 5;

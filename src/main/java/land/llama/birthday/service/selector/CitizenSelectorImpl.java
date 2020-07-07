@@ -17,6 +17,12 @@ import static java.util.stream.Collectors.counting;
 import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.toList;
 
+/**
+ * When a citizen of Llamaland turns 100 years old the King would like to send them a personal email.
+ * He would like to be notified who should be sent an email at least five weekdays in advance
+ * (the King never works weekends). If there are "a lot" of people turning 100 years old on a particular day
+ * (a term we now understand to mean more than 20 people) the King would like 10 weekdays notice.
+ */
 public class CitizenSelectorImpl implements CitizenSelector {
 
     private final Clock clock;

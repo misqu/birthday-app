@@ -7,6 +7,9 @@ import java.util.Set;
 
 import static java.util.stream.Collectors.toList;
 
+/**
+ * Filters citizens not supporting the monarchy
+ */
 public class BlackListEmailFilter implements CitizenFilter {
 
     private final Set<String> blackListEmails;

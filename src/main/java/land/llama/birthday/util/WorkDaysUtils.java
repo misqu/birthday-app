@@ -2,6 +2,9 @@ package land.llama.birthday.util;
 
 import java.time.LocalDate;
 
+/**
+ * Utils methods to operate on week days
+ */
 public final class WorkDaysUtils {
 
     private WorkDaysUtils() {

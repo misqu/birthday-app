@@ -1,5 +1,8 @@
 package land.llama.birthday.config;
 
+/**
+ * Holder for birthday application configuration properties
+ */
 public class BirthdayConfig {
 
     private final int workdaysBeforeBirthday;

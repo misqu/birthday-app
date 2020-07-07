@@ -3,6 +3,9 @@ package land.llama.birthday.util;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * Utils method to parse input into dates using birthday format
+ */
 public final class BirthdayUtils {
 
     private static final DateTimeFormatter BIRTHDAY_FORMATTER = DateTimeFormatter.ofPattern("dd-MM-yyyy");

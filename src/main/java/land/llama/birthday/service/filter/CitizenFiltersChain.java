@@ -5,6 +5,9 @@ import land.llama.birthday.domain.Citizen;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Combines multiple CitizenFilters
+ */
 public class CitizenFiltersChain implements CitizenFilter {
 
     private final List<CitizenFilter> filters;

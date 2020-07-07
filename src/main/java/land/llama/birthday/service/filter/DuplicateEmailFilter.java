@@ -12,6 +12,9 @@ import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toSet;
 
+/**
+ * Filters citizens, whose emails are duplicated
+ */
 public class DuplicateEmailFilter implements CitizenFilter {
 
     @Override
